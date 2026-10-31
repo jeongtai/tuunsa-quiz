@@ -113,6 +113,18 @@ h2{font-size:1.15rem;margin:0;font-weight:800;letter-spacing:-.01em}
 .explain p{margin:0;white-space:pre-line}
 .explain .practice{margin-top:12px;padding:10px 12px;border-left:3px solid var(--c, var(--muted));border-radius:0 8px 8px 0;background:var(--surface)}
 .explain .practice h3{margin:0 0 4px;color:var(--c, var(--muted))}
+.cnotes{margin-top:14px}
+.cnote{margin-top:8px;padding:10px 12px;border-radius:10px;background:var(--surface);border:1px solid var(--line, transparent)}
+.cnote.ans{border-color:var(--good)}
+.chead{display:flex;gap:8px;align-items:flex-start;font-weight:700;margin-bottom:6px;line-height:1.5}
+.chead .n{flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;background:var(--surface2);color:var(--muted)}
+.chead .ctext{flex:1;min-width:0}
+.ctag{flex:none;font-size:.72rem;padding:2px 8px;border-radius:999px;font-weight:700}
+.ctag.good{background:var(--good-soft, transparent);color:var(--good)}
+.ctag.bad{background:var(--bad-soft);color:var(--bad)}
+.crow{display:grid;grid-template-columns:2.6em 1fr;gap:6px;margin-top:4px;font-size:.9rem}
+.crow b{color:var(--muted);font-size:.8rem;padding-top:2px}
+.crow p{margin:0}
 .explain .ref{margin-top:10px;font-size:.78rem;color:var(--muted)}
 .mockinfo{margin:-4px 0 4px;line-height:1.6}
 .qnav{display:flex;gap:8px;margin-top:14px;position:sticky;bottom:0;padding:10px 0 calc(10px + env(safe-area-inset-bottom));background:linear-gradient(transparent,var(--bg) 30%)}
